@@ -17,6 +17,20 @@ Your task is to implement **10 functions** inside a single file called `main.js`
 
 ### Prerequisites
 - **Node.js** must be installed on your machine. If you don't have it, grab it from [nodejs.org](https://nodejs.org/).
+- A **GitHub** account.
+
+### Step-by-step setup
+
+1. **Fork** this repository by clicking the **Fork** button at the top-right of the GitHub page.
+2. **Clone** your fork to your local machine:
+
+   ```bash
+   git clone https://github.com/<your-username>/warmup-assignment.git
+   ```
+
+3. Open the project folder and start implementing the functions inside `main.js`.
+4. Test your code locally using the provided scripts (see below).
+5. **Commit and push** your work — you must have **at least 2 meaningful commits**.
 
 ### Files in this repo
 
@@ -66,7 +80,8 @@ Here is a brief summary. Full specifications, edge cases, and examples are in th
 - **This is an individual assignment.** Do your own work.
 - You can **only** use the built-in `fs` module. No external packages (no lodash, no moment, nothing). Using anything besides `fs` means an automatic **zero**.
 - You may use any built-in JavaScript methods (`Math.floor`, `String.split`, `parseInt`, etc.).
-- **Submit only `main.js`.** If you put your code in a different file, you get a zero.
+- Write **all** your code inside `main.js`. Only `main.js` will be graded.
+- Do **not** modify or delete any of the original template files (`publicTests.js`, `ReadMeFile.txt`, data files, etc.).
 - Passing the public tests is a good sign, but it does **not** guarantee full marks. The private test suite covers more edge cases, so think carefully about boundary conditions.
 - Use `fs.readFileSync()` and `fs.writeFileSync()` for all file operations.
 
@@ -74,9 +89,20 @@ Here is a brief summary. Full specifications, edge cases, and examples are in th
 
 ## Submission
 
-1. Put your completed `main.js` into a `.zip` file.
-2. Name the zip as: `YourID-TutorialGroup` (example: `1000546-T8`).
-3. Submit before the deadline. Late submissions will not be accepted.
-4. Double-check that the `.zip` contains the right file before you submit. It is **your** responsibility.
+You must complete **both** parts for your submission to count:
+
+### Part 1 — GitHub (Commit History)
+
+1. Make sure your forked repository is **public** so that the TAs can access it.
+2. You must have **at least 2 meaningful commits** pushed to your fork. Submissions with a single commit or auto-generated messages may receive a penalty.
+
+### Part 2 — Google Form (Zip Upload)
+
+1. Create a `.zip` file containing **your entire project folder** (the cloned repo with your completed `main.js`).
+2. **Rename** the `.zip` file using the format: `ID-Tutorial` (e.g., `1000546-T8`).
+3. Submit via the **Google Form**: [https://forms.gle/B2DfcPJdYP6PSyFa7](https://forms.gle/B2DfcPJdYP6PSyFa7)
+4. The form will ask for your **Name**, **Student ID**, **Tutorial Number**, **GIU Email**, **GitHub repo URL**, and the **`.zip` file** upload.
+
+> **Important:** Make sure to submit before the deadline. It is **your** responsibility to verify that your `.zip` file is correct and your GitHub repo is public.
 
 Good luck!
